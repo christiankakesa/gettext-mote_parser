@@ -1,0 +1,6 @@
+% # This is a comment
+% if user == "Bruno"
+  {{user}} {{ _('rhymes with Piano') }}
+% elsif user == "Brutus"
+  {{user}} {{ _('rhymes with Opus') }}
+% end
