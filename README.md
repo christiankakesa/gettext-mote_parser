@@ -22,16 +22,16 @@ Or install it yourself as:
 
 Require the gem in your bootstrap mechanism. See below an example for a Rack/Rails based application (`config/initializers/fast_gettext.rb`):
 
-    ```ruby
-    # frozen_string_literal: true
+```ruby
+# frozen_string_literal: true
 
-    require 'fast_gettext'
-    require 'gettext/mote_parser'
+require 'fast_gettext'
+require 'gettext/mote_parser'
 
-    Object.send(:include, FastGettext::Translation)
-    locales_dir = File.join(File.dirname(__FILE__), '..', 'locales')
-    FastGettext.add_text_domain('myapp', path: locales_dir, type: :po)
-    ```
+Object.send(:include, FastGettext::Translation)
+locales_dir = File.join(File.dirname(__FILE__), '..', 'locales')
+FastGettext.add_text_domain('myapp', path: locales_dir, type: :po)
+```
 
 You are done! It's automatically add `GetText::MoteParser` in your application.
 
