@@ -1,6 +1,6 @@
 # GetText::MoteParser
 
-This gem is for [Ruby GetText](https://github.com/ruby-gettext/gettext) gem in order to handle translations in [Mote](https://github.com/soveran/mote) template files.
+This gem is for [Ruby GetText](https://github.com/ruby-gettext/gettext) in order to handle translations in [Mote](https://github.com/soveran/mote) template files.
 
 ## Installation
 
