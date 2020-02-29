@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'mote'
+require 'ruby_parser'
 
 module GetText
   class MoteParser
